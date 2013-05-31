@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BCFDA2C5-6A37-4F9D-A02B-9C5D7ECFBAA2}</ProjectGuid>
+    <ProjectTypeGuids>{6BC8ED88-2882-458C-8E55-DFD12B67127B};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ApexMenu</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>ApexMenu.Touch</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="monotouch" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+    <Folder Include="Images\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Compile Include="Menu.cs" />
+    <Compile Include="MenuDefaults.cs" />
+    <Compile Include="MenuItem.cs" />
+    <Compile Include="MenuItemSelectedEventArgs.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Images\bg-menuitem-highlighted.png" />
+    <BundleResource Include="Images\bg-menuitem-highlighted%402x.png" />
+    <BundleResource Include="Images\bg-menuitem.png" />
+    <BundleResource Include="Images\bg-menuitem%402x.png" />
+    <BundleResource Include="Images\bg_addbutton_highlighted.png" />
+    <BundleResource Include="Images\bg_addbutton_highlighted%402x.png" />
+    <BundleResource Include="Images\icon_plus_highlighted%402x.png" />
+    <BundleResource Include="Images\icon_plus_highlighted.png" />
+    <BundleResource Include="Images\icon_plus_normal.png" />
+    <BundleResource Include="Images\icon_plus_normal%402x.png" />
+    <BundleResource Include="Images\bg_addbutton_normal.png" />
+    <BundleResource Include="Images\bg_addbutton_normal%402x.png" />
+  </ItemGroup>
+</Project>
