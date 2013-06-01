@@ -11,14 +11,13 @@ namespace ApexMenuSample
 	[Activity (Label = "ApexMenuSample", MainLauncher = true)]
 	public class Activity1 : Activity
 	{
-		private static int[] ITEM_DRAWABLES = { 
-			Resource.Drawable.composer_camera, 
-			Resource.Drawable.composer_music,
-			Resource.Drawable.composer_place, 
-			Resource.Drawable.composer_sleep, 
-			Resource.Drawable.composer_thought, 
-			//Resource.Drawable.composer_with
-			Resource.Drawable.composer_star
+		private static int[] ITEM_DRAWABLES = {
+			Resource.Drawable.composer_camera_and, 
+			Resource.Drawable.composer_music_and,
+			Resource.Drawable.composer_place_and, 
+			Resource.Drawable.composer_sleep_and, 
+			Resource.Drawable.composer_thought_and, 
+			Resource.Drawable.composer_with_and
 		};
 
 		protected override void OnCreate (Bundle bundle)
@@ -41,8 +40,6 @@ namespace ApexMenuSample
 				};
 				apexMenu.AddItem (ITEM_DRAWABLES[i], listener);
 			}
-
-
 
 			// Get our button from the layout resource,
 			// and attach an event to it

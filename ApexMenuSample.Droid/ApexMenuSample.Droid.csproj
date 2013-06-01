@@ -55,15 +55,12 @@
     <AndroidResource Include="Resources\layout\Main.axml" />
     <AndroidResource Include="Resources\values\Strings.xml" />
     <AndroidResource Include="Resources\drawable\Icon.png" />
-    <AndroidResource Include="Resources\drawable\composer_camera.png" />
-    <AndroidResource Include="Resources\drawable\composer_music.png" />
-    <AndroidResource Include="Resources\drawable\composer_place.png" />
-    <AndroidResource Include="Resources\drawable\composer_sleep.png" />
-    <AndroidResource Include="Resources\drawable\composer_thought.png" />
-    <AndroidResource Include="Resources\drawable\composer_with.png" />
-    <AndroidResource Include="..\ApexMenuSample.Touch\Images\composer_star.png">
-      <Link>Resources\drawable\composer_star.png</Link>
-    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\composer_camera_and.png" />
+    <AndroidResource Include="Resources\drawable\composer_music_and.png" />
+    <AndroidResource Include="Resources\drawable\composer_place_and.png" />
+    <AndroidResource Include="Resources\drawable\composer_sleep_and.png" />
+    <AndroidResource Include="Resources\drawable\composer_thought_and.png" />
+    <AndroidResource Include="Resources\drawable\composer_with_and.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>

@@ -62,10 +62,10 @@ namespace ApexMenu
 			public static int bg_menuitem = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public static int bg_menuitem_highlighted = 2130837508;
+			public static int bg_menuitem_highlighted_and = 2130837508;
 			
 			// aapt resource value: 0x7f020005
-			public static int bg_menuitem_normal = 2130837509;
+			public static int bg_menuitem_normal_and = 2130837509;
 			
 			// aapt resource value: 0x7f020006
 			public static int icon_plus = 2130837510;

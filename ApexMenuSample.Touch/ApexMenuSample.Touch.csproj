@@ -77,7 +77,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
-    <Folder Include="Images_old\" />
     <Folder Include="Images\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
@@ -96,19 +95,17 @@
     <Compile Include="Main.cs" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Images_old\bg-addbutton-highlighted.png" />
-    <BundleResource Include="Images_old\bg-addbutton-highlighted%402x.png" />
-    <BundleResource Include="Images_old\bg-addbutton.png" />
-    <BundleResource Include="Images_old\bg-addbutton%402x.png" />
-    <BundleResource Include="Images_old\bg-menuitem-highlighted.png" />
-    <BundleResource Include="Images_old\bg-menuitem-highlighted%402x.png" />
-    <BundleResource Include="Images_old\bg-menuitem.png" />
-    <BundleResource Include="Images_old\bg-menuitem%402x.png" />
-    <BundleResource Include="Images_old\icon-plus-highlighted.png" />
-    <BundleResource Include="Images_old\icon-plus-highlighted%402x.png" />
-    <BundleResource Include="Images_old\icon-plus.png" />
-    <BundleResource Include="Images_old\icon-plus%402x.png" />
-    <BundleResource Include="Images\composer_star.png" />
-    <BundleResource Include="Images\composer_star%402x.png" />
+    <BundleResource Include="Images\composer_camera_ios.png" />
+    <BundleResource Include="Images\composer_camera_ios%402x.png" />
+    <BundleResource Include="Images\composer_music_ios.png" />
+    <BundleResource Include="Images\composer_music_ios%402x.png" />
+    <BundleResource Include="Images\composer_place_ios.png" />
+    <BundleResource Include="Images\composer_place_ios%402x.png" />
+    <BundleResource Include="Images\composer_sleep_ios.png" />
+    <BundleResource Include="Images\composer_sleep_ios%402x.png" />
+    <BundleResource Include="Images\composer_thought_ios.png" />
+    <BundleResource Include="Images\composer_thought_ios%402x.png" />
+    <BundleResource Include="Images\composer_with_ios.png" />
+    <BundleResource Include="Images\composer_with_ios%402x.png" />
   </ItemGroup>
 </Project>

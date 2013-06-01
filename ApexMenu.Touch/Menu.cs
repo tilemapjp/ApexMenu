@@ -305,7 +305,7 @@ namespace ApexMenu
 			return transformGroup.TransformPoint(point);
 		}
 
-		private void AwesomeMenuItemTouchesEnd(MenuItem item)
+		private void ApexMenuItemTouchesEnd(MenuItem item)
 		{
 			if (item == this.addButton) 
 			{
@@ -533,7 +533,7 @@ namespace ApexMenu
 
 		private void ItemSelected(object sender, EventArgs args)
 		{
-			this.AwesomeMenuItemTouchesEnd(sender as MenuItem);
+			this.ApexMenuItemTouchesEnd(sender as MenuItem);
 		}
 
 		// todo: animate opacity to match expand / close 

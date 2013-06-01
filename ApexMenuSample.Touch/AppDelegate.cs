@@ -36,6 +36,15 @@ namespace ApexMenuSample
 		// class-level declarations
 		UIWindow window;
 
+		private static string[] ITEM_DRAWABLES = {
+			"Images/composer_camera_ios.png", 
+			"Images/composer_music_ios.png",
+			"Images/composer_place_ios.png", 
+			"Images/composer_sleep_ios.png", 
+			"Images/composer_thought_ios.png", 
+			"Images/composer_with_ios.png"
+		};
+
 		//
 		// This method is invoked when the application has loaded and is ready to run. In this 
 		// method you should instantiate the window, load the UI into it and then make the window
@@ -54,20 +63,19 @@ namespace ApexMenuSample
 			var storyMenuItemImage = UIImage.FromFile("Images/bg_menuitem_normal.png");
 			var storyMenuItemImagePressed = UIImage.FromFile("Images/bg_menuitem_highlighted.png");
 
-			var starImage = UIImage.FromFile("Images/composer_star.png");
+			int itemCount = ITEM_DRAWABLES.Length;
+			ApexMenu.MenuItem[] menus = new ApexMenu.MenuItem[itemCount];
+			for (int i = 0; i < itemCount; i++) {
+				var item = UIImage.FromFile(ITEM_DRAWABLES[i]);
 
-			var starMenuItem1 = new ApexMenu.MenuItem(storyMenuItemImage, storyMenuItemImagePressed, starImage);
-			var starMenuItem2 = new ApexMenu.MenuItem(storyMenuItemImage, storyMenuItemImagePressed, starImage);
-			var starMenuItem3 = new ApexMenu.MenuItem(storyMenuItemImage, storyMenuItemImagePressed, starImage);
-			var starMenuItem4 = new ApexMenu.MenuItem(storyMenuItemImage, storyMenuItemImagePressed, starImage);
+				menus[i] = new ApexMenu.MenuItem(storyMenuItemImage, storyMenuItemImagePressed, item);
+			}
 
-			ApexMenu.Menu menu = new ApexMenu.Menu(this.window.Bounds,
-			    new[] { starMenuItem1, starMenuItem2, starMenuItem3, starMenuItem4 }
-			);
+			ApexMenu.Menu menu = new ApexMenu.Menu(this.window.Bounds,menus);
 
 			menu.MenuItemSelected += (sender, e) => Console.WriteLine(e.Selected);
 
-			menu.BackgroundColor = UIColor.White;
+			menu.BackgroundColor = UIColor.Black;
 			this.window.AddSubview(menu);
 
 			// make the window visible
