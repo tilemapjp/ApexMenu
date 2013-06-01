@@ -46,10 +46,6 @@
     <Compile Include="MenuItemSelectedEventArgs.cs" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Images\bg-menuitem-highlighted.png" />
-    <BundleResource Include="Images\bg-menuitem-highlighted%402x.png" />
-    <BundleResource Include="Images\bg-menuitem.png" />
-    <BundleResource Include="Images\bg-menuitem%402x.png" />
     <BundleResource Include="Images\bg_addbutton_highlighted.png" />
     <BundleResource Include="Images\bg_addbutton_highlighted%402x.png" />
     <BundleResource Include="Images\icon_plus_highlighted%402x.png" />
@@ -58,5 +54,9 @@
     <BundleResource Include="Images\icon_plus_normal%402x.png" />
     <BundleResource Include="Images\bg_addbutton_normal.png" />
     <BundleResource Include="Images\bg_addbutton_normal%402x.png" />
+    <BundleResource Include="Images\bg_menuitem_normal.png" />
+    <BundleResource Include="Images\bg_menuitem_normal%402x.png" />
+    <BundleResource Include="Images\bg_menuitem_highlighted.png" />
+    <BundleResource Include="Images\bg_menuitem_highlighted%402x.png" />
   </ItemGroup>
 </Project>

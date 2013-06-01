@@ -17,7 +17,8 @@ namespace ApexMenuSample
 			Resource.Drawable.composer_place, 
 			Resource.Drawable.composer_sleep, 
 			Resource.Drawable.composer_thought, 
-			Resource.Drawable.composer_with 
+			//Resource.Drawable.composer_with
+			Resource.Drawable.composer_star
 		};
 
 		protected override void OnCreate (Bundle bundle)
@@ -38,7 +39,7 @@ namespace ApexMenuSample
 				Action<View> listener = (View v) => {
 					Toast.MakeText (this, "position:" + position, ToastLength.Short).Show ();
 				};
-				apexMenu.AddItem (item, listener);
+				apexMenu.AddItem (ITEM_DRAWABLES[i], listener);
 			}
 
 

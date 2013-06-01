@@ -108,7 +108,7 @@
     <BundleResource Include="Images_old\icon-plus-highlighted%402x.png" />
     <BundleResource Include="Images_old\icon-plus.png" />
     <BundleResource Include="Images_old\icon-plus%402x.png" />
-    <BundleResource Include="Images\icon-star.png" />
-    <BundleResource Include="Images\icon-star%402x.png" />
+    <BundleResource Include="Images\composer_star.png" />
+    <BundleResource Include="Images\composer_star%402x.png" />
   </ItemGroup>
 </Project>

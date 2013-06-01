@@ -59,16 +59,25 @@ namespace ApexMenu
 			public static int bg_addbutton_normal = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public static int icon_plus = 2130837507;
+			public static int bg_menuitem = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public static int icon_plus_highlighted = 2130837508;
+			public static int bg_menuitem_highlighted = 2130837508;
 			
 			// aapt resource value: 0x7f020005
-			public static int icon_plus_normal = 2130837509;
+			public static int bg_menuitem_normal = 2130837509;
 			
 			// aapt resource value: 0x7f020006
-			public static int monoandroidsplash = 2130837510;
+			public static int icon_plus = 2130837510;
+			
+			// aapt resource value: 0x7f020007
+			public static int icon_plus_highlighted = 2130837511;
+			
+			// aapt resource value: 0x7f020008
+			public static int icon_plus_normal = 2130837512;
+			
+			// aapt resource value: 0x7f020009
+			public static int monoandroidsplash = 2130837513;
 			
 			static Drawable()
 			{
@@ -106,10 +115,13 @@ namespace ApexMenu
 		{
 			
 			// aapt resource value: 0x7f030000
-			public static int menu = 2130903040;
+			public static int item = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public static int monoandroidsplash = 2130903041;
+			public static int menu = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public static int monoandroidsplash = 2130903042;
 			
 			static Layout()
 			{

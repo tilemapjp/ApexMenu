@@ -61,6 +61,9 @@
     <AndroidResource Include="Resources\drawable\composer_sleep.png" />
     <AndroidResource Include="Resources\drawable\composer_thought.png" />
     <AndroidResource Include="Resources\drawable\composer_with.png" />
+    <AndroidResource Include="..\ApexMenuSample.Touch\Images\composer_star.png">
+      <Link>Resources\drawable\composer_star.png</Link>
+    </AndroidResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>

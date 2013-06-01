@@ -65,6 +65,20 @@ namespace ApexMenu {
 			mHintView = (ImageView) FindViewById(Resource.Id.control_hint);
 		}
 
+		public void AddItem(int resId, Action<View> listener) {
+			var frame = new FrameLayout (this.Context);
+			LayoutInflater li = (LayoutInflater)this.Context.GetSystemService (Context.LayoutInflaterService);
+			li.Inflate(Resource.Layout.item, frame);
+
+			var bgframe  = (FrameLayout)frame.GetChildAt(0);
+			var identity = (ImageView)bgframe.GetChildAt(0);
+
+			identity.SetImageResource(resId);
+			frame.RemoveView(bgframe);
+
+			this.AddItem (bgframe, listener);
+		}
+
 		public void AddItem(View item, Action<View> listener) {
 			mLayout.AddView(item);
 

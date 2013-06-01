@@ -32,6 +32,9 @@ namespace ApexMenuSample
 			ApexMenu.Resource.Drawable.bg_addbutton = ApexMenuSample.Resource.Drawable.bg_addbutton;
 			ApexMenu.Resource.Drawable.bg_addbutton_highlighted = ApexMenuSample.Resource.Drawable.bg_addbutton_highlighted;
 			ApexMenu.Resource.Drawable.bg_addbutton_normal = ApexMenuSample.Resource.Drawable.bg_addbutton_normal;
+			ApexMenu.Resource.Drawable.bg_menuitem = ApexMenuSample.Resource.Drawable.bg_menuitem;
+			ApexMenu.Resource.Drawable.bg_menuitem_highlighted = ApexMenuSample.Resource.Drawable.bg_menuitem_highlighted;
+			ApexMenu.Resource.Drawable.bg_menuitem_normal = ApexMenuSample.Resource.Drawable.bg_menuitem_normal;
 			ApexMenu.Resource.Drawable.icon_plus = ApexMenuSample.Resource.Drawable.icon_plus;
 			ApexMenu.Resource.Drawable.icon_plus_highlighted = ApexMenuSample.Resource.Drawable.icon_plus_highlighted;
 			ApexMenu.Resource.Drawable.icon_plus_normal = ApexMenuSample.Resource.Drawable.icon_plus_normal;
@@ -39,6 +42,7 @@ namespace ApexMenuSample
 			ApexMenu.Resource.Id.control_hint = ApexMenuSample.Resource.Id.control_hint;
 			ApexMenu.Resource.Id.control_layout = ApexMenuSample.Resource.Id.control_layout;
 			ApexMenu.Resource.Id.item_layout = ApexMenuSample.Resource.Id.item_layout;
+			ApexMenu.Resource.Layout.item = ApexMenuSample.Resource.Layout.item;
 			ApexMenu.Resource.Layout.menu = ApexMenuSample.Resource.Layout.menu;
 			ApexMenu.Resource.Layout.monoandroidsplash = ApexMenuSample.Resource.Layout.monoandroidsplash;
 			ApexMenu.Resource.String.library_name = ApexMenuSample.Resource.String.library_name;
@@ -84,37 +88,49 @@ namespace ApexMenuSample
 			public const int bg_addbutton_normal = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int composer_camera = 2130837507;
+			public const int bg_menuitem = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public const int composer_music = 2130837508;
+			public const int bg_menuitem_highlighted = 2130837508;
 			
 			// aapt resource value: 0x7f020005
-			public const int composer_place = 2130837509;
+			public const int bg_menuitem_normal = 2130837509;
 			
 			// aapt resource value: 0x7f020006
-			public const int composer_sleep = 2130837510;
+			public const int composer_camera = 2130837510;
 			
 			// aapt resource value: 0x7f020007
-			public const int composer_thought = 2130837511;
+			public const int composer_music = 2130837511;
 			
 			// aapt resource value: 0x7f020008
-			public const int composer_with = 2130837512;
+			public const int composer_place = 2130837512;
 			
 			// aapt resource value: 0x7f020009
-			public const int Icon = 2130837513;
+			public const int composer_sleep = 2130837513;
 			
 			// aapt resource value: 0x7f02000a
-			public const int icon_plus = 2130837514;
+			public const int composer_star = 2130837514;
 			
 			// aapt resource value: 0x7f02000b
-			public const int icon_plus_highlighted = 2130837515;
+			public const int composer_thought = 2130837515;
 			
 			// aapt resource value: 0x7f02000c
-			public const int icon_plus_normal = 2130837516;
+			public const int composer_with = 2130837516;
 			
 			// aapt resource value: 0x7f02000d
-			public const int monoandroidsplash = 2130837517;
+			public const int Icon = 2130837517;
+			
+			// aapt resource value: 0x7f02000e
+			public const int icon_plus = 2130837518;
+			
+			// aapt resource value: 0x7f02000f
+			public const int icon_plus_highlighted = 2130837519;
+			
+			// aapt resource value: 0x7f020010
+			public const int icon_plus_normal = 2130837520;
+			
+			// aapt resource value: 0x7f020011
+			public const int monoandroidsplash = 2130837521;
 			
 			static Drawable()
 			{
@@ -155,13 +171,16 @@ namespace ApexMenuSample
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public const int item = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int menu = 2130903041;
+			public const int Main = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int monoandroidsplash = 2130903042;
+			public const int menu = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int monoandroidsplash = 2130903043;
 			
 			static Layout()
 			{

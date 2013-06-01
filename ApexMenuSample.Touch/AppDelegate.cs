@@ -51,10 +51,10 @@ namespace ApexMenuSample
 			// If you have defined a view, add it here:
 			// window.AddSubview (navigationController.View);
 
-			var storyMenuItemImage = UIImage.FromFile("Images/bg-menuitem.png");
-			var storyMenuItemImagePressed = UIImage.FromFile("Images/bg-menuitem-highlighted.png");
+			var storyMenuItemImage = UIImage.FromFile("Images/bg_menuitem_normal.png");
+			var storyMenuItemImagePressed = UIImage.FromFile("Images/bg_menuitem_highlighted.png");
 
-			var starImage = UIImage.FromFile("Images/icon-star.png");
+			var starImage = UIImage.FromFile("Images/composer_star.png");
 
 			var starMenuItem1 = new ApexMenu.MenuItem(storyMenuItemImage, storyMenuItemImagePressed, starImage);
 			var starMenuItem2 = new ApexMenu.MenuItem(storyMenuItemImage, storyMenuItemImagePressed, starImage);

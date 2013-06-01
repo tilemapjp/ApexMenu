@@ -67,6 +67,14 @@
     <AndroidResource Include="..\ApexMenu.Touch\Images\bg_addbutton_normal.png">
       <Link>Resources\drawable\bg_addbutton_normal.png</Link>
     </AndroidResource>
+    <AndroidResource Include="Resources\layout\item.axml" />
+    <AndroidResource Include="..\ApexMenu.Touch\Images\bg_menuitem_highlighted.png">
+      <Link>Resources\drawable\bg_menuitem_highlighted.png</Link>
+    </AndroidResource>
+    <AndroidResource Include="..\ApexMenu.Touch\Images\bg_menuitem_normal.png">
+      <Link>Resources\drawable\bg_menuitem_normal.png</Link>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\bg_menuitem.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>
